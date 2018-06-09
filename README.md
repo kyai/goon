@@ -1,0 +1,2 @@
+# goon
+Go Object Notation
