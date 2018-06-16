@@ -33,14 +33,3 @@ func (g *Goon) Get(key string) *Goon {
 	g.value = value
 	return g
 }
-
-func (g Goon) Value() interface{} {
-	return g.value
-}
-
-func (g Goon) String() (s string) {
-	if v, ok := g.value.(string); ok {
-		return v
-	}
-	return
-}
